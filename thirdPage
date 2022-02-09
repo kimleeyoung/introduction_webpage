@@ -1,0 +1,149 @@
+
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>김이영님의 프로필</title>
+	<style>
+		.container{
+			width:800px;
+			max-width:100%;
+			margin:10px auto;
+			padding-top:10px;
+			padding-bottom:5px;
+			border-top:5px solid #2E2EFE;
+			border-bottom:5px solid #2E2EFE;
+			border-top-width:thick;
+			border-bottom-width:thick;
+
+		}
+		.profile{
+			width:160px;
+			height:200px;
+			object-fit:cover;
+			display:inline-block;
+			vertical-align: middle;
+		}
+		.name-container{
+			display:inline-block;
+			vertical-align: middle;
+			padding-left:20px;
+		}
+		.header{
+			font-size:35px;
+			font-weight:bold;
+		}
+		.brith{
+			font-size:18px;
+			color:#2E2EFE;
+		}
+		.speices,.male,.nationality{
+			font-size:14px;
+			color:#555;
+		}
+
+		.tab-container{
+			margin-top:20px;
+		}
+		.tab-container .tab-item.active{
+			border-radius:4px;
+			padding:5px 10px;
+			display:inline-block;
+			text-decoration:none;
+			color:#555;
+
+		}
+		.tab-container .tab-item.activity{
+			color:#2E2EFE;
+			font-weight:bold;
+
+		}
+		.tab-container .tab-item{
+			border-radius:4px;
+			padding:5px 10px;
+			display:inline-block;
+			text-decoration:none;
+			color:#555;
+
+		}
+		.section{
+			margin-top:20px;
+		}
+		.section .section-header{
+			font-size:20px;
+			color:#2E2EFE;
+			font-weight:bold;
+			margin-bottom:10px;
+		}
+		.section .body{
+			font-size:12px;
+			font-weight:bold;
+			margin-bottom:10px;
+			line-height:20px;
+			margin-top:5px;
+		}
+		.section .main-body{
+			font-size:16px;
+			font-weight:bold;
+			white-space:pre-line;
+			line-height:20px;
+		}
+		.section .sub-body{
+			font-size:14px;
+			margin-bottom:10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="/connie.jpg" class="profile">
+		<div class="name-container">
+				<div class="header">
+					코니
+				</div>
+				<div class="brith">
+					2020년2월14일
+				</div>
+				<div class="speices">
+					포메라니안
+				</div>
+				<div class="male">
+					수컷
+				</div>
+				<div class="nationality">
+					독일
+				</div>
+		</div>
+		<div class="tab-container">
+			<a class="tab-item" href="index.html">
+				Profile
+			</a>
+			<a class="tab-item active" href="introduce.html">
+				My self
+			</a>
+			<a class="tab-item activity" href="/">
+				My boy
+			</a>
+		</div>
+
+
+		<div class="section">
+			<div class="section-header">코니소개</div>
+			<div class="body">
+			코니는 2020년 2월14일에 독일에서 태어났다. 어미로부터 일찍 떨어져 한국으로 왔고 애견샵의 작은 케이스 안에서 자랐다가 우리에게 입양된 것이다. 포메라니안 중에서도 작게 계량되어서 어릴때 부터 뼈가 약하게 태어났고 탈골이 일어날 수 있으니 주의해야한다. 강아지 이름을 코니라고 지은 이유는 내가 connie talbot이라는 영국 가수를 좋아하기 때문이다.</div>
+			<div class="section-header">예방접종</div>
+			<div class="body">
+			어린 강아지는 태어나서부터 5번의 예방접종을 맞아야한다. 코니가 왔을때 1차접종만 맞은 상태여서 2차를 맞으러 갔었다. 강아지도 사람처럼 주사를 싫어했다. 맞을때 아픈지 소리를 지르는데 너무 마음이 아팠다. 3차접종을 맞으러 갈때는 병원인걸 알았는지 들어갈때 부터 덜덜덜 떨고있었다. 주사를 맞추려고 간호사분이 잡았는데 정말 고래고래 소리를 질렀다. 주사를 놓기전부터 소리지르는 것을 보고 수의사분이 "엄살이 심하네요"라고 하셨다. 주사를 맞고는 아픈지 나에게 오지도 않고 삐져있었다. 4차,5차 접종때 엄살은 날이갈 수록 심해졌다. 5차까지 접종을 완료하고 나서는 마음이 한결 편해졌다. 코니가 아파하는 모습을 보는 것은 내 마음도 아프기때문이다.</div>
+			<div class="section-header">좋아하는 것</div>
+			<div class="main-body">얼음</div>
+			<div class="sub-body">더위를 많이 타는지 얼음을 좋아한다.</div>
+
+			<div class="main-body">우유껌</div>
+			<div class="sub-body">3개월 이후부턴 우유껌을 줄 수 있는데 봉지를 열면 우유냄새가 나는지 바로 달려든다.</div>
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>
