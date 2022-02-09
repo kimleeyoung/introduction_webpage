@@ -1,0 +1,135 @@
+
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>김이영님의 프로필</title>
+	<style>
+		.container{
+			width:800px;
+			max-width:100%;
+			margin:10px auto;
+			padding-top:10px;
+			padding-bottom:10px;
+			border-top:5px solid #2E2EFE;
+			border-bottom:5px solid #2E2EFE;
+			border-top-width:thick;
+			border-bottom-width:thick;
+		}
+		.profile{
+			width:160px;
+			height:200px;
+			object-fit:cover;
+			display:inline-block;
+			vertical-align: middle;
+		}
+		.name-container{
+			display:inline-block;
+			vertical-align: middle;
+			padding-left:20px;
+		}
+		.header{
+			font-size:35px;
+			font-weight:bold;
+		}
+		.sub-header{
+			font-size:18px;
+			color: #2E2EFE;
+		}
+		.address,.mobile,.email{
+			font-size:14px;
+			color:#555;
+		}
+		.tab-container{
+			margin-top:20px;
+		}
+		.tab-container .tab-item.active{
+			border-radius:4px;
+			padding:5px 10px;
+			display:inline-block;
+			text-decoration:none;
+			color:#555;
+			font-weight:normal;
+		}
+		.tab-container .tab-item{
+			color:#2E2EFE;
+			display:inline-block;
+			border-radius:4px;
+			padding:5px 10px;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		.tab-container .tab-item.activity{
+			border-radius:4px;
+			padding:5px 10px;
+			display:inline-block;
+			text-decoration:none;
+			color:#555;
+			font-weight:normal;
+		}
+		.section{
+			margin-top:20px;
+		}
+		.section .section-header{
+			font-size:20px;
+			color:#2E2EFE;
+			font-weight:bold;
+			margin-bottom:5px;
+		}
+		.section .body{
+			font-size:12px;
+			font-weight:bold;
+			white-space:pre-line;
+			line-height:20px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="/myself.jpg" class="profile">
+		<div class="name-container">
+				<div class="header">
+					김이영
+				</div>
+				<div class="sub-header">
+					명지전문대 정보통신공학과
+				</div>
+				<div class="address">
+					경기도 고양시 정발산동
+				</div>
+				<div class="mobile">
+					010-4035-2332
+				</div>
+				<div class="email">
+					rladldud1109@naver.com
+				</div>
+		</div>
+		<div class="tab-container">
+			<a class="tab-item active" href="index.html">
+				Profile
+			</a>
+			<a class="tab-item" href="/">
+				My self
+			</a>
+			<a class="tab-item activity" href="favorite.html">
+				My boy
+			</a>
+		</div>
+
+
+		<div class="section">
+			<div class="section-header">자기소개</div>
+			<div class="body">
+			내가 처음 태권도를 시작한 것은 9살때였다. 제일 친한 친구가 9살임에도 검은색 띠를 메고있는 모습을 보고 너무 멋져 보였다. 그래서 나도 친구 따라서 태권도를 배우기 시작했다. 나의 태권도 사랑은 그때부터 시작된 것이였다. 하루종일 태권도장에만 있고 학원도 태권도장에서 가까운 곳으로 가려고 했다. 내가 그 당시 태권도를 좋아했던 이유는 친구들과 신나게 뛰어놀 수 있다는 점이였다. 학교에서도 물론 뛰어 놀 수 있었지만 태권도장에서는 운동을 배우고 싶은 사람만 모인 곳이여서 그런지 학교보다 더욱 활동적이고 활발하게 놀 수 있어서 좋았다. 태권도장 관장님은 아이들이 좋아하는 것과 싫어하는 것을 분명히 알고계셨다. 그래서 아이들이 싫어하는 품새나 발차기 등을 먼저 어느정도 가르쳐주시고 남은 시간에 게임을 하여 흥미를 돋구어 주셨다. 나는 태권도를 배운 후에 하는 게임이 정말정말 재미있었다. 게임을 조금이라도 더 길게 하려고 품새도 열심히 하고 발차기도 열심히 했었다. 빨리 익히고 잘 해내야 게임을 할 수 있었기에 나의 집중력은 길러졌고 자연스레 태권도를 잘 하게되었다. 
+			
+			중학생이 되고 공부를 하게 되었다. 초등학생 때는 진짜 태권도장에서 살다싶이 있다가 중학생이 되니까 공부의지가 생겨서 점점 태권도장을 안가게 되었다. 그래도 태권도를 그만 배우기에는 그동안 다녔던 것이 아까워서 4품까지만 따고 그만 다녀야겠다고 생각했다. 하루 1시간 씩은 꼭 태권도장에서 운동을 하였고 계속 몸을 움직이는 활동을 하다보니까 체력이 엄청 좋아졌고 공부하는데도 효과가 있었다. 중학교 3학년때 4품을 따게 되었고 나는 태권도를 잠시 쉬기로했다. 
+			
+			고등학생 내내 태권도를 안배우다가 대학생이 되어서 태권도를 다시 배우기 시작했다. 하지만 더이상 어린시절 재미있게 배웠던 태권도가 아니였다. 그래서 한달만 배우고 그만두었다. 지금도 운동을 좋아하는데 어린시절만큼 운동을 좋아하지는 않는것 같다. 나는 몸을 움직이는것을 좋아하는 줄 알았는데 생각해보니까 친구들과 어울리면서 재미있는 게임도하고 승부를 보는 것을 좋아했던거 같다.</div>
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>
