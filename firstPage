@@ -1,0 +1,143 @@
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>김이영님의 프로필</title>
+	<style>
+		.container{
+			width:800px;
+			max-width:100%;
+			margin:10px auto;
+			padding-top:10px;
+			padding-bottom:10px;
+			border-top:5px solid #2E2EFE;
+			border-bottom:5px solid #2E2EFE;
+			border-top-width:thick;
+			border-bottom-width:thick;
+		}
+		.profile{
+			width:160px;
+			height:200px;
+			object-fit:cover;
+			display:inline-block;
+			vertical-align: middle;
+		}
+		.name-container{
+			display:inline-block;
+			vertical-align: middle;
+			padding-left:20px;
+		}
+		.header{
+			font-size:35px;
+			font-weight:bold;
+		}
+		.sub-header{
+			font-size:18px;
+			color:#2E2EFE;
+		}
+		.address,.mobile,.email{
+			font-size:14px;
+			color:#555;
+		}
+
+		.tab-container{
+			margin-top:20px; 
+		}
+		.tab-container .tab-item{
+			border-radius:4px;
+			padding:5px 10px;
+			display:inline-block;
+			text-decoration:none;
+			color:#555;
+		}
+		.tab-container .tab-item.active{
+			color:#2E2EFE;
+			font-weight:bold;
+
+		}
+		.tab-container .tab-item.activity{
+			border-radius:4px;
+			padding:5px 10px;
+			display:inline-block;
+			text-decoration:none;
+			color:#555;
+
+		}
+		.section{
+			margin-top:20px;
+		}
+		.section .section-header{
+			font-size:20px;
+			color: #2E2EFE;
+			font-weight:bold;
+			margin-bottom:10px;
+		}
+		.section .body{
+			font-size:16px;
+			font-weight:bold;
+		}
+		.section .sub-body{
+			font-size:14px;
+			margin-bottom:10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="/kly.jpg" class="profile">
+		<div class="name-container">
+				<div class="header">
+					김이영
+				</div>
+				<div class="sub-header">
+					명지전문대 정보통신공학과
+				</div>
+				<div class="address">
+					경기도 고양시 정발산동
+				</div>
+				<div class="mobile">
+					010-4035-2332
+				</div>
+				<div class="email">
+					rladldud1109@naver.com
+				</div>
+		</div>
+		<div class="tab-container">
+			<a class="tab-item active" href="/">
+				Profile
+			</a>
+	
+			<a class="tab-item" href="introduce.html">
+				My self
+			</a>
+			<a class="tab-item activity" href="favorite.html">
+				My boy
+			</a>
+		</div>
+
+		<div class="section">
+			<div class="section-header">학력</div>
+			<div class="body">명지전문대</div>
+			<div class="sub-body">2019 ~ 현재</div>
+
+			<div class="body">백신고등학교</div>
+			<div class="sub-body">2016 ~ 2018</div>
+
+			<div class="body">현산중학교</div>
+			<div class="sub-body">2013 ~ 2015</div>
+		</div>
+
+		<div class="section">
+			<div class="section-header">수상내역</div>
+			<div class="body">2019 창업 아이디어 경진대회 참가상</div>
+			<div class="body">2020 창업 아이디어 경진대회 우수상</div>
+		</div>
+		<div class="section">
+			<div class="section-header">전공과목</div>
+			<div class="body">운영체제,객체지향언어,네트워크,모빌리티프로그래밍,센서 데이터로깅</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
